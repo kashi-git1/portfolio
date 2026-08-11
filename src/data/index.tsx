@@ -1,27 +1,31 @@
 import { Layout, Box, Sparkles, Code, Cpu } from 'lucide-react';
 import type { Project, Service, Stat } from '../types';
 
+import project1Img from '../assets/images/project1.jpg';
+import project2Img from '../assets/images/project2.jpg';
+import project3Img from '../assets/images/project3.jpg';
+
 export const projects: Project[] = [
   {
     title: "University Management System",
     category: "Full Stack Software",
     description: "A comprehensive academic management system featuring student enrollment, grade administration, course scheduling, and database optimization.",
     color: "#0f172a",
-    image: "/project1.jpg"
+    image: project1Img
   },
   {
     title: "Modern Portfolio Website",
     category: "Web Engineering & UI/UX",
     description: "A high-performance interactive portfolio featuring Lenis smooth scrolling, Framer Motion micro-interactions, dark mode aesthetics, and dynamic page reveals.",
     color: "#1e1b4b",
-    image: "/project2.jpg"
+    image: project2Img
   },
   {
     title: "3D Product Showcase",
     category: "WebGL & 3D Rendering",
     description: "An interactive web browser 3D experience with real-time model rendering, lighting controls, and dynamic product configuration.",
     color: "#171717",
-    image: "/project3.jpg"
+    image: project3Img
   }
 ];
 
