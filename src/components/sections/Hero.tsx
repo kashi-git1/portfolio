@@ -2,6 +2,7 @@ import { motion, useScroll, useTransform, useMotionTemplate, useSpring } from 'f
 import { useRef, useEffect, useState } from 'react';
 import { Magnetic } from '../ui/Magnetic';
 import { SplitText } from '../ui/SplitText';
+import profileImg from '../../assets/images/hero-profile.png';
 
 export const Hero = () => {
   const ref = useRef(null);
@@ -128,7 +129,7 @@ export const Hero = () => {
               initial={{ scale: 1.15 }}
               animate={{ scale: 1 }}
               transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
-              src="/hero-profile.png" 
+              src={profileImg} 
               alt="Kashif Raza" 
               className="absolute inset-0 w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-1000 ease-out z-10 will-change-transform" 
             />
