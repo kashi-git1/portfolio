@@ -1,4 +1,4 @@
-import { Monitor, Layout, Box, Sparkles, Code, Cpu } from 'lucide-react';
+import { Layout, Box, Sparkles, Code, Cpu } from 'lucide-react';
 import type { Project, Service, Stat } from '../types';
 
 export const projects: Project[] = [
